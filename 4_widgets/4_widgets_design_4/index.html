@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            4 widgets
+        </title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link href="css/Chart.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/breakpoint.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <main>
+                <div class="dashboard-container">
+                    <div class="card-1">
+                        <h4 class="chart-lbl">
+                            Doughnut Chart
+                        </h4>
+                        <div class="divider">
+                        </div>
+                        <div class="content-center">
+                            <div class="doughnut-chart-container">
+                                <canvas class="doughnut-chart" id="doughnut">
+                                </canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-2">
+                        <h4 class="chart-lbl">
+                            Bubble Chart
+                        </h4>
+                        <div class="divider">
+                        </div>
+                        <div class="bubble-chart-container">
+                            <canvas class="bubble-chart" id="bubble">
+                            </canvas>
+                        </div>
+                    </div>
+                    <div class="card-3">
+                        <h4 class="chart-lbl">
+                            line Chart
+                        </h4>
+                        <div class="divider">
+                        </div>
+                        <div class="line-chart-container">
+                            <canvas class="line-chart" id="line">
+                            </canvas>
+                        </div>
+                    </div>
+                    <div class="card-4">
+                        <h4 class="chart-lbl">
+                            Bar Chart
+                        </h4>
+                        <div class="divider">
+                        </div>
+                        <div class="bar-chart-container">
+                            <canvas class="bar-chart" id="bar">
+                            </canvas>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script src="js/Chart.min.js">
+        </script>
+        <script src="js/generate_chart.js">
+        </script>
+    </body>
+</html>

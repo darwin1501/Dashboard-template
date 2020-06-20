@@ -1,0 +1,193 @@
+@media only screen and (min-width: 320px) {
+    .bar-chart-container {
+        height: 70%;
+        margin: 5% auto 3% auto;
+        position: relative;
+        width: 90%;
+    }
+    .dashboard-container {
+        display: grid;
+        grid-template: 18% 18% 18% 18% 20% 20%/ repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+    .doughnut-chart-container, .pie-chart-container, .polar-chart-container, .radar-chart-container {
+        margin: 5% auto 5% auto;
+        position: relative;
+        width: 100%;
+    }
+    .card-1, .card-2, .card-3, .card-4, .card-5 {
+        border-radius: 10px;
+    }
+    /*doughnut chart*/
+    .card-1 {
+        grid-row: 1 / 2;
+    }
+    /*pie chart*/
+    .card-2 {
+        grid-row: 2 / 3;
+    }
+    /*polar area*/
+    .card-3 {
+        grid-row: 3 / 4;
+    }
+    /*radar chart*/
+    .card-4 {
+        grid-row: 4 / 5;
+    }
+    /*bar chart*/
+    .card-5 {
+        grid-row: 5 / 6;
+    }
+    /*line chart*/
+    .card-6 {
+        grid-row: 6 / 7;
+    }
+    main {
+        margin: 10% 0 140% 0;
+    }
+    .line-chart-container{
+        height: 65%;
+        margin: 5% auto 3% auto;
+        position: relative;
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 400px) {
+    main {
+        margin: 10% 5% 90% 5%;
+    }
+}
+@media only screen and (min-width: 800px) {
+    /*doughnut chart*/
+    .card-1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+    /*pie chart*/
+    .card-2 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+    /*polar area*/
+    .card-3 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 5;
+    }
+    /*radar chart*/
+    .card-4 {
+        grid-column: 2 / 3;
+        grid-row: 3 / 5;
+    }
+    /*bar chart*/
+    .card-5 {
+        grid-column: 1 / 3;
+        grid-row: 5 / 7;
+    }
+    /*line chart*/
+    .card-6 {
+        grid-column: 1 / 3;
+        grid-row: 7 / 9;
+    }
+    .dashboard-container {
+        display: grid;
+        grid-template: repeat(8, 12%) / repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    main {
+        margin: 10% 5% 45% 5%;
+    }
+    .line-chart-container, .bar-chart-container {
+        margin: 2% auto 3% auto;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .bar-chart-container {
+        width: 80%;
+        height: 70%;
+        margin-top: 10%
+    }
+    .dashboard-container {
+        grid-template: repeat(12, 7.5%) / repeat(13, 1fr);
+        grid-gap: 5px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .doughnut-chart-container, .pie-chart-container {
+        width: 90%;
+        margin-top: 2%;
+    }
+    /*doughnut chart*/
+    .card-1 {
+        grid-column: 6 / 10;
+        grid-row: 5 / 9;
+    }
+    /*pie chart*/
+    .card-2 {
+        grid-column: 6 / 10;
+        grid-row: 1 / 5;
+    }
+    /*polar area*/
+    .card-3 {
+        grid-column: 1 / 6;
+        grid-row: 7 / -1;
+    }
+    /*radar chart*/
+    .card-4 {
+        grid-column: 1 / 6;
+        grid-row: 1 / 7;
+    }
+    /*bar chart*/
+    .card-5 {
+        grid-column: 10 / -1;
+        grid-row: 1 / 9;
+    }
+    /*line chart*/
+    .card-6 {
+        grid-column: 6 / -1;
+        grid-row: 9 / -1;
+    }
+    .content-height {
+        height: 80%;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        width: 80vw;
+        margin: 2vh 10vw 8vh 10vw;
+    }
+    .line-chart-container {
+        height: 60%;
+        margin: 2% auto 3% auto;
+        width: 90%;
+    }
+    .polar-chart-container, .radar-chart-container {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .doughnut-chart-container, .pie-chart-container {
+        width: 85%;
+        margin: 0;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        width: 80vw;
+        margin: 8vh 10vw 2vh 10vw;
+    }
+}
+@media screen and (min-width: 1500px){
+    .dashboard-container {
+        grid-template: repeat(12, 8%) / repeat(13, 1fr);
+    }
+}
+@media screen and (min-width: 1920px){
+    .dashboard-container{
+        max-width: 1536px;
+    }
+}

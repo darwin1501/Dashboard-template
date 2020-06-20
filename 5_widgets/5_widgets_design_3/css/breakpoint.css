@@ -1,0 +1,170 @@
+@media only screen and (min-width: 320px) {
+    .bar-chart-container, .line-chart-container {
+        height: 70%;
+        margin: 5% auto 5% auto;
+        position: relative;
+        width: 90%;
+    }
+    .dashboard-container {
+        display: grid;
+        grid-template: 10% 10% 10% 10% 10% 10% 11% 11% 11% 11% / repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+    .doughnut-chart-container, .pie-chart-container, .polar-chart-container {
+        height: 40%;
+        margin: 5% auto 5% auto;
+        position: relative;
+        width: 100%;
+    }
+    .card-1, .card-2, .card-3, .card-4, .card-5 {
+        border-radius: 10px;
+    }
+    /*doughnut chart*/
+    .card-1 {
+        grid-row: 1 / 3;
+    }
+    /*pie chart*/
+    .card-2 {
+        grid-row: 3 / 5;
+    }
+    /*polar area*/
+    .card-3 {
+        grid-row: 5 / 7;
+    }
+    /*line chart*/
+    .card-4 {
+        grid-row: 7 / 9;
+    }
+    /*bar chart*/
+    .card-5 {
+        grid-row: 9 / 11;
+    }
+    main {
+        margin: 10% 0 105% 0;
+    }
+}
+@media only screen and (min-width: 400px) {
+    main {
+        margin: 10% 5% 90% 5%;
+    }
+}
+@media only screen and (min-width: 800px) {
+    /*doughnut chart*/
+    .card-1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+    /*pie chart*/
+    .card-2 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+    /*polar area*/
+    .card-3 {
+        grid-column: 1 / 3;
+        grid-row: 3 / 6;
+    }
+    /*line chart*/
+    .card-4 {
+        grid-column: 1 / 3;
+        grid-row: 6 / 9;
+    }
+    /*bar chart*/
+    .card-5 {
+        grid-column: 1 / 3;
+        grid-row: 9 / 12;
+    }
+    .dashboard-container {
+        display: grid;
+        grid-template: repeat(11, 8.5%) / repeat(2, 1fr);
+        grid-gap: 20px;
+        margin: 0 10% 0 10%;
+        padding: 5% 0 50% 0;
+    }
+    .doughnut-chart-container, .pie-chart-container {
+        width: 100%;
+        position: relative;
+    }
+    main {
+        margin: 0;
+    }
+    .polar-chart-container {
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 1090px) {
+    .bar-chart-container {
+        height: 70%;
+        margin: 5% auto 0 auto;
+        position: relative;
+        width: 90%;
+    }
+    /*doughnut chart*/
+    .card-1 {
+        grid-column: 1 / 6;
+        grid-row: 4 / 7;
+    }
+    /*pie chart*/
+    .card-2 {
+        grid-column: 1 / 6;
+        grid-row: 7 / 10;
+    }
+    /*polar area*/
+    .card-3 {
+        grid-column: 8 / -1;
+        grid-row: 1 / 4;
+    }
+    /*line chart*/
+    .card-4 {
+        grid-column: 1 / 8;
+        grid-row: 1 / 4;
+    }
+    /*bar chart*/
+    .card-5 {
+        grid-column: 6 / -1;
+        grid-row: 4 / -1;
+    }
+    .dashboard-container {
+        grid-template: repeat(9, 10.5%) / repeat(13, 1fr);
+        grid-gap: 10px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .doughnut-chart-container, .pie-chart-container {
+        margin-top: 2%;
+        width: 90%;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        width: 80vw;
+        margin: 5vh 10vw 5vh 10vw;
+    }
+    .line-chart-container {
+        height: 65%;
+        margin: 1.5% auto 0 auto;
+        position: relative;
+        width: 90%;
+    }
+    .polar-chart-container {
+        margin-top: 2%;
+        width: 90%;
+    }
+}
+@media screen and (min-width: 1296px){
+    .dashboard-container {
+        grid-template: repeat(9, 9.3%) / repeat(13, 1fr);
+        max-width: 829px;
+    }
+    .doughnut-chart-container, .pie-chart-container {
+        margin-top: 0;
+        width: 90%;
+    }
+    .polar-chart-container {
+        margin-top: 0;
+        width: 75%;
+    }
+}

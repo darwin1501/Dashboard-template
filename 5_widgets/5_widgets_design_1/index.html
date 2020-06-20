@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>5 widgets</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/Chart.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/breakpoint.css">
+</head>
+<body>
+<div class="container">
+	<main>
+		<div class="dashboard-container">
+			<div class="card-1">
+				<h4 class="chart-lbl">Doughnut Chart</h4>
+				<div class="divider"></div>
+				<div class="content-center">
+					<div class="doughnut-chart-container">
+						<canvas id="doughnut" class="doughnut-chart"></canvas>
+					</div>
+				</div>
+			</div>
+			<div class="card-2">
+				<h4 class="chart-lbl">Pie Chart</h4>
+				<div class="divider"></div>
+				<div class="content-center">
+					<div class="pie-chart-container">
+						<canvas id="pie" class="pie-chart"></canvas>
+					</div>
+				</div>
+			</div>
+			<div class="card-3">
+				<h4 class="chart-lbl">Polar Area</h4>
+				<div class="divider"></div>
+				<div class="content-center">
+					<div class="polar-chart-container">
+						<canvas id="polar" class="polar-chart"></canvas>
+					</div>
+				</div>
+			</div>
+			<div class="card-4">
+				<h4 class="chart-lbl">line Chart</h4>
+				<div class="divider"></div>
+
+					<div class="line-chart-container">
+						<canvas id="line" class="line-chart"></canvas>
+					</div>
+
+			</div>
+			<div class="card-5">
+				<h4 class="chart-lbl">Bar Chart</h4>
+				<div class="divider"></div>
+
+					<div class="bar-chart-container">
+						<canvas id="bar" class="bar-chart"></canvas>
+					</div>
+
+			</div>
+		</div>
+	</main>
+</div>
+<script src="js/Chart.min.js">
+</script>
+<script src="js/generate_chart.js">
+</script>
+</body>
+</html>
